@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hero section</title>
+</head>
+<body>
+   <style>
+    *{
+        list-style: none;
+    }
+    body{
+        /* background-color:black */
+        color: white;
+    }
+    ul{
+        display: flex;
+        /* flex-direction: column */
+        align-items: center;
+        justify-content: center;
+        /* text-decoration: none */
+    }
+li{
+    list-style: none;
+    padding: 8px 8px;
+}
+li:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 0 20px;
+}
+section{
+    display: flex;
+    column-gap: 20px;
+}
+.myimage{
+    width: 50px;
+    /* height:100% */
+}
+img{
+    width: 50%;
+    color: black;
+    /* height:100%; */
+}
+.myform{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 2px;
+}
+   </style> 
+   <div class="header">
+    <div><img src="access_bank_logo.png" width="240px"></div>
+<div>
+<ul>
+    <li>HOME</li>
+    <li>ABOUT US</li>
+    <li>CONTACT US</li>
+    <li>SHOP NOW</li>
+</div>
+</div>
+<marquee>SHOP NOW</marquee>
+<section>
+    <div class="access_bank_logo.png"><img src="access_bank_logo.png" width="300px"></div>
+    <div class="form">
+        <form action="" class="my form">
+            <p style="text-align:center;">SIGN IN</p>
+            <label for="user">Username</label>
+            <input type="text" placeholder="enter your name" id="user">
+            <label for="user1">Email</label>
+            <input type="email" placeholder="enter your email" id="user1">
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <button style="margin-top: 10px;">SIGN IN</button>
+
+        </form>
+
+    </div>
+</section>
+
+</ul>
+</body>
+</html>
