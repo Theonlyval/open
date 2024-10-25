@@ -1,0 +1,202 @@
+@media screen and (max-width:450px){
+    header{
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    header .logo{
+        width: 50%;
+    }
+
+    header .sign-in{
+        width: 50%;
+        gap: 5px;
+    }
+
+    .sign-in .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        padding: 5px 10px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .sign-in .profile{
+        background-color: white;
+        border: 1px solid white;
+        color: #525DE0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
+    }
+
+    .sign-in .menu{
+        border: 1px solid white;
+        padding: 5px 10px;
+        background-color: white;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .bannercontainer{
+        width: 100%;
+        height: 170vh;
+        display: block;
+    }
+
+    .bannerleft{
+        width: 100%;
+        height: 50%;
+        margin-top: 50px;
+    }
+
+    .bannerleft h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .bannerRight{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .bannerRight .img1{
+        display: none;
+    }
+
+    .bannerRight .img2{
+        display: none;
+    }
+
+    .bannerRight .img3{
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 80px;
+    }
+    
+    .bannerRight .img3 img{
+        width: 100%;
+    }
+
+    .categories-head h5{
+        color: #231F41;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .course-categories .categories-body{
+        grid-template-columns: repeat(1, 360px);
+        padding: 50px 0;
+}
+
+.categories-body .courses{
+    border-radius: 5px;
+    gap: 25px;
+    padding: 10px 15px;
+}
+
+.offerContainer{
+    width: 100%;
+    flex-direction: column;
+}
+
+.offerContainer .offferleft{
+    width: 100%;
+    height: 50%;
+}
+
+.offferleft .offer1{
+    display: none;
+}
+
+.offferleft .offer2{
+    display: none;
+}
+
+
+.offferleft .offer3{
+    position: relative;
+    width: 90%;
+    padding-bottom: 40px;
+}
+.Whoweare{
+    width: 100%;
+    height: 50%;
+    background-color:#f5f5f5 ;
+
+}
+
+.Whoweare .offers{
+    width: 100%;
+}
+
+.Whoweare .iconimage{
+    width: 50%;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF5E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Whoweare .offers h5{
+    font-size: 30px;
+    font-weight: 600;
+}
+.Whoweare .offers h1{
+    font-size: 15px;
+    font-weight: 600;
+    color: #5B65E2;
+    letter-spacing: 1px;
+}
+
+
+.knowcontainer{
+    display: flex;
+    width: 60%;
+    height: 65px;
+    background-color: #525DE0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.knowcontainer .knowaboutus h1{
+    font-size: 15px;
+
+}
+
+
+    .sign-in .profile span{
+        display: none;
+    }
+
+    header .nav{
+        display: none;
+    }
+    
+    /* section.course-categories{
+         display: none; 
+    } */
+
+    /* section.offerContainer{
+        display: none;
+    } */
+
+    section.coursecontainer{
+        display: none;
+    }
+}
